@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - SimpleFiApp</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            text-align: center;
+            max-width: 600px;
+        }
+        .subscribe {
+            display: flex;
+        }
+        .subscribe input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #cccccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            width: 300px;
+        }
+        .subscribe button {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            background-color: #d618ff;
+            color: #ffffff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .subscribe button:hover {
+            background-color: #8b50ff;
+        }
+    </style>
+</head>
+<body>
+    <img src="Untitled design (7).png" alt="SimpleFiApp Logo" class="logo">
+    <h1>Coming Soon</h1>
+    <p>We're working hard to launch our new platform. Stay tuned! Subscribe to our newsletter to get the latest updates.</p>
+    <div class="subscribe">
+        <input type="email" placeholder="Enter your email address" required>
+        <button type="submit">Notify Me</button>
+    </div>
+</body>
+</html>
